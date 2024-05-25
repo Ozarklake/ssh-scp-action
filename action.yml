@@ -19,7 +19,7 @@ inputs:
     description: 'execute commands after SCP'
 runs:
   using: 'docker'
-  image: docker-registry.fangintel.com/devops/ssh-scp-action:master
+  image: 'docker://docker-registry.fangintel.com/devops/ssh-scp-action:master'
 
 branding:
   icon: 'terminal'
