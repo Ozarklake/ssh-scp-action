@@ -68,7 +68,6 @@ setupSSH
 echo "+++++++++++++++++++RUNNING BEFORE SSH+++++++++++++++++++"
 executeSSH "$INPUT_SSH_BEFORE"
 echo "+++++++++++++++++++RUNNING BEFORE SSH+++++++++++++++++++"
-ls -alh /github/workspace/ && cat /github/workspace/package.json
 echo "+++++++++++++++++++RUNNING SCP+++++++++++++++++++"
 executeSCP "$INPUT_SCP"
 echo "+++++++++++++++++++RUNNING SCP+++++++++++++++++++"
